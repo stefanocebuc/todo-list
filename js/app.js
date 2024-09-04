@@ -80,7 +80,7 @@ function emptyList() {
         toDoItems.item(0).remove();
     }
 
-    // localStorage.clear(); // metodo per svuotare il local storage senza farlo manualmente
+    localStorage.clear(); // metodo per svuotare il local storage senza farlo manualmente
 }
 
 
