@@ -106,20 +106,6 @@ function saveList() {
     }
 }
 
-/* function stopGoInterval() {
-    let intervallo = setInterval(saveList, 1000);
-
-    let stopInterval = document.getElementById('todo-list').children;
-
-    if (stopInterval.length == 0) {
-        clearInterval(intervallo);
-    } else {
-        saveList();
-    }
-} */
-
-
-
 setInterval(saveList, 6000);
 
 function loadList() {
